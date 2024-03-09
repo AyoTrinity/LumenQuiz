@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "school": "Martin-K Academy",
+    "candidate": "Israel Elbar",
+    "score": "45%"
+  },
+  {
+    "id": 2,
+    "school": "Veritas Academy",
+    "candidate": "Miles Brown",
+    "score": "65%"
+  },
+  {
+    "id": 3,
+    "school": "Holmes Academy",
+    "candidate": "Sherlock Holmes",
+    "score": "89%"
+  }
+]

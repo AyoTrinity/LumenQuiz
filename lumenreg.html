@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen Quiz Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="lumen.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="lumen.html"><img src="img/05ebdda22873422e6a7a8a263100465f.png" alt="7uP"></a>
+        </div>
+        <div class="list-items">
+            <ul>
+                <a href="#"><li>QUIZ HISTORY</li></a>
+                <a href="lumenwinners.html"><li>HALL OF FAME</li></a>
+                <a href=""><li>ADMISSION</li></a>
+                <a href=""><li>ABOUT</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <h3>Registration</h3>
+        <p>Please fill in all required details.</p>
+          
+        <form action="/action_page.php" class="was-validated" id="registrationForm">
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">School Name</label>
+            <input type="text" class="form-control" id="Schoolname" placeholder="School Name" name="Schoolname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Candidate's Full Name</label>
+            <input type="text" class="form-control" id="Candidatename" placeholder="Candidate's Full Name" name="Candidatename" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">School's Email Address</label>
+            <input type="email" class="form-control" id="Schoolemail" placeholder="School's Email Address" name="Schoolemail" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">School's Country of residence</label>
+            <input type="text" class="form-control" id="Schoolcountry" placeholder="School's Country of residence" name="Schoolcountry" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+         
+         <button type="submit" class="btn" id="btn" onclick="createCandidate()" style="background-color:  #292672; color: white;">Submit</button>
+        </form>
+      </div>
+    
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="lumenreg.js"></script>
+</body>
+</html>

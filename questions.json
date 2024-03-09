@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the name of the largest island on the globe?",
+        "options": ["Greenland", "United Kingdom", "Australia", "Marshall Island"],
+        "answer": "Greenland"
+    },
+    {
+        "question": "The Eiffel Tower was launched in which year?",
+        "options": ["1886", "1887", "1888", "1889"],
+        "answer": "1889"
+    },
+    {
+        "question": " How many players make up a football team?",
+        "options": ["8", "9", "12", "11"],
+        "answer": "11"
+    },
+    {
+        "question": "Flowers manufacture a substance to attract insects called?",
+        "options": ["Pollen", "Athem", "Nectar", "Stimulus"],
+        "answer": "Nectar"
+    },
+    {
+        "question": "DC means what in the field of electricity?",
+        "options": ["Danger Cell", "Direct Current", "Direct Circuit", "Danger Current"],
+        "answer": "Direct Current"
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "question": "The female reproductive part in a flower is called?",
+        "options": ["Pistil", "Palette", "Petal", "Ovary"],
+        "answer": "Pistil"
+    },
+    {
+        "question": "Winston Churchill was a prisoner of war during which war?",
+        "options": ["World War 1", "Worldr War 2", "The British War", "The Boer War"],
+        "answer": "The Boer War"
+    },
+    {
+        "question": "Who is the author of the popular book “Pride and Prejudice”?",
+        "options": ["Jane Hildof", "Jane Ze Derdi", "Jane Austen", "Jane Arthur"],
+        "answer": "Jane Austen"
+    },
+    {
+        "question": "What is the name of the largest landlocked country in the world?",
+        "options": ["Kazakhstan", "Turkmenistan", "Afghanistan", "Azerbaijan"],
+        "answer": "Kazakhstan"
+    }
+]
